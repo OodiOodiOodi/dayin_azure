@@ -3,10 +3,10 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     postgresql: dict = {
-        'database': 'postgres',
-        'user': 'postgres',
-        'password': 'zhang202902',
-        'host': 'localhost',
+        'database': 'dayinsystem-database',
+        'user': 'dojattpgyo',
+        'password': '8yQw02WwXFrPrM$C',
+        'host': 'dayinsystem-cygnaybvb8f9e4d5.westus-01.azurewebsites.net',
         'port': 5432
     }
 
